@@ -1,0 +1,15 @@
+# @graph-mind
+# Remove the previous line to prevent this file from being modified by the robots
+version: "3"
+services:
+  postgres:
+    image: postgres:12-alpine
+    restart: always
+    volumes:
+      - ./infrastructure/app-server/database/schema.sql:/docker-entrypoint-initdb.d/1-init.sql
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: local_user
+      POSTGRES_PASSWORD: local_password
+    ports:
+      - 5432:5432

@@ -1,0 +1,80 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "App API",
+    "description": "",
+    "version": "1.0.0",
+    "x-logo": {
+      "altText": "App"
+    }
+  },
+  "paths": {},
+  "components": {
+    "schemas": {
+      "ErrorBody": {
+        "description": "The error object",
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "One of a server-defined set of error codes."
+          },
+          "message": {
+            "type": "string",
+            "description": "A human-readable representation of the error."
+          },
+          "target": {
+            "type": "string",
+            "description": "The target of the error."
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ErrorBody"
+            }
+          },
+          "innererror": {
+            "$ref": "#/components/schemas/InnerError"
+          }
+        },
+        "required": [
+          "code",
+          "message"
+        ]
+      },
+      "InnerError": {
+        "description": "A more specific error object",
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "A more specific error code than was provided by the containing error."
+          },
+          "innererror": {
+            "$ref": "#/components/schemas/InnerError"
+          }
+        }
+      }
+    },
+    "responses": {},
+    "parameters": {},
+    "examples": {},
+    "requestBodies": {},
+    "headers": {},
+    "securitySchemes": {},
+    "links": {},
+    "callbacks": {}
+  },
+  "tags": [],
+  "servers": [
+    {
+      "url": "http://localhost:{port}/api/rest",
+      "description": "Development server",
+      "variables": {
+        "port": {
+          "default": "3000"
+        }
+      }
+    }
+  ]
+}

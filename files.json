@@ -1,0 +1,434 @@
+[
+  {
+    "path": "_dev.sh",
+    "type": "copy"
+  },
+  {
+    "path": "_update.bat",
+    "type": "copy"
+  },
+  {
+    "path": "_update.sh",
+    "type": "copy"
+  },
+  {
+    "path": ".dockerignore",
+    "type": "copy"
+  },
+  {
+    "path": ".eslintrc",
+    "type": "copy"
+  },
+  {
+    "path": ".gitignore",
+    "type": "copy"
+  },
+  {
+    "path": ".prettierrc",
+    "type": "copy"
+  },
+  {
+    "path": "babel.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "docker-compose.yml",
+    "type": "yaml"
+  },
+  {
+    "path": "infrastructure/app-server/database/schema.sql",
+    "type": "source"
+  },
+  {
+    "path": "infrastructure/app-server/docker/server.Dockerfile",
+    "type": "dot"
+  },
+  {
+    "path": "jest.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "jest.config.ts.js",
+    "type": "copy"
+  },
+  {
+    "path": "lerna.json",
+    "type": "copy"
+  },
+  {
+    "path": "package.json",
+    "type": "json"
+  },
+  {
+    "path": "packages/ada/index.body.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/ada/index.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/ada/package.json",
+    "type": "copy"
+  },
+  {
+    "path": "packages/app-server/.env.development.local",
+    "type": "dot"
+  },
+  {
+    "path": "packages/app-server/babel.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/app-server/jest.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/app-server/openapi.json",
+    "type": "json"
+  },
+  {
+    "path": "packages/app-server/package.json",
+    "type": "json"
+  },
+  {
+    "path": "packages/app-server/src/api/endpoints/index.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/api/resources/index.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/config.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/entities/index.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/gateways/index.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/app-server/src/server.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/errorMessages.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/genDatabase.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/genErrorHandler.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/genFactory.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/genRestErrorHandler.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/authorizeViewerMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/finalMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/identifyViewerMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/initializeHealthCheckMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/initializeViewerMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/middleware/initialMiddleware.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/server/viewer.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/src/usecases/index.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-server/tsconfig.json",
+    "type": "copy"
+  },
+  {
+    "path": "packages/app-website/src/api.raw.d.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/app-website/src/api/validation.ts",
+    "type": "source"
+  },
+  {
+    "path": "packages/packyak/index.body.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/packyak/index.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/packyak/package.json",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/babel.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/jest.config.js",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/package.json",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/__tests__/index.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/__tests__/session.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/__tests__/viewer.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/array/__tests__/array.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/array/array.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/array/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/entity/__tests__/entity.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/entity/entity.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/entity/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/errors.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/factory.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/logger.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/object/__tests__/object.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/object/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/object/object.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/__tests__/applyCriteria.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/__tests__/applySort.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/__tests__/genEntityDelete.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/__tests__/genEntityDiff.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/applyCriteria.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/applySort.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/dateStorageModel.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/genEntityDelete.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/genEntityDiff.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/genPageInfo.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/orm/moneyStorageModel.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/__tests__/money.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/date.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/money.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/password.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/primitive/string.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/rest/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/session.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/standards/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/standards/pagination.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/__tests__/joiDateValidation.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/__tests__/joiIdValidation.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/__tests__/joiMoneyValidation.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/__tests__/joiPaginationValidation.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/__tests__/joiPhoneValidation.test.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/index.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/joi.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/joiIdValidation.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/joiMoneyValidation.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/joiPaginationValidation.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/joiPhoneValidation.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/validation/utils.ts",
+    "type": "copy"
+  },
+  {
+    "path": "packages/server-stdlib/src/viewer.ts",
+    "type": "copy"
+  },
+  {
+    "path": "permissions.json",
+    "type": "json"
+  },
+  {
+    "path": "README.md",
+    "type": "copy"
+  },
+  {
+    "path": "scripts/update.sh",
+    "type": "copy"
+  },
+  {
+    "path": "tsconfig.build.json",
+    "type": "copy"
+  },
+  {
+    "path": "tsconfig.json",
+    "type": "copy"
+  }
+]

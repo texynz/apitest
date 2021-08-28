@@ -1,0 +1,29 @@
+{
+  "name": "@local/server-stdlib",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.13.10",
+    "@casl/ability": "5.2.2",
+    "@joi/date": "2.1.0",
+    "bcrypt": "5.0.1",
+    "clone": "2.1.2",
+    "cuid": "2.1.8",
+    "currency.js": "2.0.3",
+    "date-fns": "2.19.0",
+    "hasha": "5.2.2",
+    "http-errors": "1.8.0",
+    "joi": "17.4.0",
+    "kind-of": "6.0.3",
+    "knex": "0.21.19",
+    "morphism": "2.2.3",
+    "object-path": "0.11.5",
+    "objection": "2.2.15",
+    "pg": "8.5.1",
+    "phone": "2.4.21",
+    "pino": "6.11.2"
+  },
+  "devDependencies": {
+    "@types/pino": "6.3.6"
+  }
+}

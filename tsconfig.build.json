@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [ "es7" ],
+    "importHelpers": true,
+    "declaration": false,
+    "sourceMap": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@local/server-stdlib": [
+        "packages/server-stdlib/src"
+      ],
+      "@local/server-stdlib/orm": [
+        "packages/server-stdlib/src/orm"
+      ],
+      "@local/app-server": [
+        "packages/app-server/src"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "**/*.test.ts"
+  ],
+  "include": [
+    "packages/*/src/**/*",
+  ]
+}
